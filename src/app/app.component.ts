@@ -7,7 +7,7 @@ import { HelloComponent} from './hello/hello.component';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name:string = 'Sports ';
+  name = 'Sports ';
   sportone = 'Bikes';
   sporttwo = 'Shoes';
   sportthree = 'Skis';
