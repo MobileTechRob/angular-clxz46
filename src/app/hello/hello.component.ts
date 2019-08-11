@@ -9,7 +9,8 @@ export class HelloComponent implements OnInit {
 
   name = "Robs App";
 
-  constructor() { }
+  constructor() {     
+  }
 
   ngOnInit() {
   }
