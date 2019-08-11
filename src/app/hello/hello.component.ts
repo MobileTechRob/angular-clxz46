@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HelloComponent implements OnInit {
 
+  name = "Robs App";
+
   constructor() { }
 
   ngOnInit() {
