@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { HelloComponent} from './hello/hello.component';
 
 @Component({
@@ -7,7 +7,7 @@ import { HelloComponent} from './hello/hello.component';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Sports ';
+  @Input() name = 'Sports ';
   sportone = 'Bikes';
   sporttwo = 'Shoes';
   sportthree = 'Skis';
