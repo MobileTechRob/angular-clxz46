@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'hello',
-  template: './hello.component.html',
+  template: '<html></html>',
   styleUrls: ['./hello.component.css']
 })
 export class HelloComponent implements OnInit {
