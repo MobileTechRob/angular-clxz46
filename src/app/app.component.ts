@@ -16,9 +16,6 @@ export class AppComponent  {
 
   Shoes: any[] = [ {"Brand":"Hoka", "Price":"100"}, {"Brand":"Saucony", "Price":"200"}, {"Brand":"Asics", "Price":"300"}, {"Brand":"Izuno", "Price":"400"},{"Brand":"Izuno", "Price":"500"}] ;
 
-  Skiis: any[] = [ {"Brand":"Head", "Price":"100"}, {"Brand":"K2", "Price":"200"}, {"Brand":"Fischer", "Price":"300"}, {"Brand":"E-Bike", "Price":"400"},{"Brand":"Izuno", "Price":"500"},{"Brand":"Cannondale", "Price":"600"}  ] ;
-
-
-
-
+  Skiis: any[] = [ {"Brand":"Head", "Price":"100"}, {"Brand":"K2", "Price":"200"}, {"Brand":"Fischer", "Price":"300"}, {"Brand":"Salomon", "Price":"400"}] ;
+  
 }

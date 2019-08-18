@@ -11,14 +11,17 @@
    </ul>
 </div> 
   <dt><b>{{sporttwo}}</b></dt>
-    <dd>Skiis</dd>  
-  <dt><b>{{sportthree}}</b></dt>
-</dl>
-<table><tr><td>{{sportone}}</td></tr><tr><td>{{sporttwo}}</td></tr><tr><td>{{sportthree}}</td></tr></table>
-<hr>
-<hr>
-<div *ngFor="let bike of Bikes">
+   <div *ngFor="let shoe of Shoes">
    <ul>
-     <li>{{bike.Brand}} {{bike.Price}}</li>
+     <li>{{shoe.Brand}} {{shoe.Price}}</li>
    </ul>
-</div> 
+  </div>
+  <dt><b>{{sportthree}}</b></dt>
+   <div *ngFor="let ski of Skiis">
+   <ul>
+     <li>{{ski.Brand}} {{ski.Price}}</li>
+   </ul>
+  </div>
+</dl>
+<hr>
+<hr>
