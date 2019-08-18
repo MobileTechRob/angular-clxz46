@@ -5,7 +5,11 @@
 </p>
 <dl>
   <dt><b>{{sportone}}</b></dt>
-    <dd>French word for cheese.</dd>
+    <div *ngFor="let bike of Bikes">
+   <ul>
+     <li>{{bike.Brand}} {{bike.Price}}</li>
+   </ul>
+</div> 
   <dt><b>{{sporttwo}}</b></dt>
     <dd>Skiis</dd>  
   <dt><b>{{sportthree}}</b></dt>
