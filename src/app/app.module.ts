@@ -7,14 +7,14 @@ import { HelloComponent } from './hello/hello.component';
 import { BikesComponent } from './bikes/bikes.component';
 import { ShoesComponent } from './shoes/shoes.component';
 import { SkiisComponent } from './skiis/skiis.component';
-import { ProductListComponentComponent } from './product-list-component/product-list-component.component';
+import { ProductListComponent } from './product-list/product-list-component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
       { path: '', component: HelloComponent },
-      { path: 'products/:productId', component: ProductDetailsComponent },
+      { path: 'products/:productId', component: ProductListComponent },
     ])],
-  declarations: [ AppComponent, HelloComponent, BikesComponent, ShoesComponent, SkiisComponent, ProductListComponentComponent ],
+  declarations: [ AppComponent, HelloComponent, BikesComponent, ShoesComponent, SkiisComponent, ProductListComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
