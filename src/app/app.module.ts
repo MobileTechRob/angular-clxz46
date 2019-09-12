@@ -7,7 +7,7 @@ import { HelloComponent } from './hello/hello.component';
 import { BikesComponent } from './bikes/bikes.component';
 import { ShoesComponent } from './shoes/shoes.component';
 import { SkiisComponent } from './skiis/skiis.component';
-import { ProductListComponent } from './product-list/product-list-component';
+import { ProductListComponent } from  './product-list/product-list-component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([

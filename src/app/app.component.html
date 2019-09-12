@@ -1,33 +1,12 @@
 <hello name="{{ name }}"></hello>
 <h1>{{ name }}</h1>
 <nav>
-  <a routerLink   href="/html/">HTML</a> 
-  <a href="/css/">CSS</a> 
-  <a href="/js/">JavaScript</a> 
-  <a href="/jquery/">jQuery</a>
+  <a routerLink = "./bikes/bikes.component">Bikes</a> 
 </nav>
 <p>
   Start editing to see some magic happen :)
 </p>
 <dl>
-  <dt><b>{{sportone}}</b></dt>
-    <div *ngFor="let bike of Bikes">
-   <ul>
-     <li>{{bike.Brand}} {{bike.Price}}</li>
-   </ul>
-</div> 
-  <dt><b>{{sporttwo}}</b></dt>
-   <div *ngFor="let shoe of Shoes">
-   <ul>
-     <li>{{shoe.Brand}} {{shoe.Price}}</li>
-   </ul>
-  </div>
-  <dt><b>{{sportthree}}</b></dt>
-   <div *ngFor="let ski of Skiis">
-   <ul>
-     <li>{{ski.Brand}} {{ski.Price}}</li>
-   </ul>
-  </div>
 </dl>
 <hr>
 <hr>
