@@ -7,7 +7,7 @@ import { HelloComponent} from './hello/hello.component';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  @Input() name = 'Sports ';
+  @Input() name = 'Fitness World';
   sportone = 'Bikes';
   sporttwo = 'Shoes';
   sportthree = 'Skis';
