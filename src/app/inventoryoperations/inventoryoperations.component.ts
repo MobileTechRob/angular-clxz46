@@ -12,4 +12,5 @@ export class InventoryoperationsComponent implements OnInit {
   ngOnInit() {
   }
 
+  ImportModel() {}
 }
