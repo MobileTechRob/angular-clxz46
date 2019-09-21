@@ -15,6 +15,7 @@ import { ProductDashboardComponent } from './product-dashboard/product-dashboard
       { path: '', component: ProductDashboardComponent },
       { path: 'bikes', component: BikesComponent },
       { path: 'skiis', component: SkiisComponent },
+      { path: 'shoes', component: ShoesComponent },
       { path: 'products/:productId', component: ProductListComponent },
     ])],
   declarations: [ AppComponent, HelloComponent, BikesComponent, ShoesComponent, SkiisComponent, ProductListComponent, ProductDashboardComponent ],
