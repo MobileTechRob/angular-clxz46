@@ -11,7 +11,8 @@ import { ProductListComponent } from  './product-list/product-list-component';
 import { ProductDashboardComponent } from './product-dashboard/product-dashboard.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([     
+  imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
+      { path: '', component: ProductDashboardComponent },
       { path: 'bikes', component: BikesComponent },
       { path: 'skiis', component: SkiisComponent },
       { path: 'products/:productId', component: ProductListComponent },
