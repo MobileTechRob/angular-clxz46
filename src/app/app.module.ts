@@ -10,6 +10,7 @@ import { SkiisComponent } from './skiis/skiis.component';
 import { ProductListComponent } from  './product-list/product-list-component';
 import { ProductDashboardComponent } from './product-dashboard/product-dashboard.component';
 import { InventoryoperationsComponent } from './inventoryfunctions/inventoryoperations/inventoryoperations.component';
+import { InventoryserviceService } from './inventoryservice.service';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
@@ -20,6 +21,7 @@ import { InventoryoperationsComponent } from './inventoryfunctions/inventoryoper
       { path: 'products/:productId', component: ProductListComponent },
     ])],
   declarations: [ AppComponent, HelloComponent, BikesComponent, ShoesComponent, SkiisComponent, ProductListComponent, ProductDashboardComponent, InventoryoperationsComponent ],
-  bootstrap:    [ AppComponent ]
+  bootstrap:    [ AppComponent ],
+  providers: [InventoryserviceService]
 })
 export class AppModule { }
