@@ -13,4 +13,5 @@ export class InventoryoperationsComponent implements OnInit {
   }
 
   ImportModel() {}
+  
 }
