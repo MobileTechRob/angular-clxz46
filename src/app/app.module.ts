@@ -9,6 +9,7 @@ import { ShoesComponent } from './shoes/shoes.component';
 import { SkiisComponent } from './skiis/skiis.component';
 import { ProductListComponent } from  './product-list/product-list-component';
 import { ProductDashboardComponent } from './product-dashboard/product-dashboard.component';
+import { InventoryoperationsComponent } from './inventoryfunctions/inventoryoperations/inventoryoperations.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
@@ -18,7 +19,7 @@ import { ProductDashboardComponent } from './product-dashboard/product-dashboard
       { path: 'shoes', component: ShoesComponent },
       { path: 'products/:productId', component: ProductListComponent },
     ])],
-  declarations: [ AppComponent, HelloComponent, BikesComponent, ShoesComponent, SkiisComponent, ProductListComponent, ProductDashboardComponent ],
+  declarations: [ AppComponent, HelloComponent, BikesComponent, ShoesComponent, SkiisComponent, ProductListComponent, ProductDashboardComponent, InventoryoperationsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
