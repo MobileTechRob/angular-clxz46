@@ -9,7 +9,7 @@ import { ShoesComponent } from './shoes/shoes.component';
 import { SkiisComponent } from './skiis/skiis.component';
 import { ProductListComponent } from  './product-list/product-list-component';
 import { ProductDashboardComponent } from './product-dashboard/product-dashboard.component';
-import { InventoryoperationsComponent } from './inventoryfunctions/inventoryoperations/inventoryoperations.component';
+import { InventoryoperationsComponent } from './inventoryoperations/inventoryoperations.component';
 import { InventoryserviceService } from './inventoryservice.service';
 
 @NgModule({
