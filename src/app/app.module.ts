@@ -20,8 +20,8 @@ import { InventoryService } from './inventory.service';
       { path: 'shoes', component: ShoesComponent },
       { path: 'products/:productId', component: ProductListComponent },
     ])],
-  declarations: [ AppComponent, HelloComponent, BikesComponent, ShoesComponent, SkiisComponent, ProductListComponent, ProductDashboardComponent, InventoryoperationsComponent ],
+  declarations: [ AppComponent, HelloComponent, BikesComponent, ShoesComponent, SkiisComponent, ProductListComponent, ProductDashboardComponent ],
   bootstrap:    [ AppComponent ],
-  providers: [InventoryserviceService, InventoryService]
+  providers: [InventoryService, InventoryService]
 })
 export class AppModule { }
