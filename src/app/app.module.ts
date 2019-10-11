@@ -9,8 +9,8 @@ import { ShoesComponent } from './shoes/shoes.component';
 import { SkiisComponent } from './skiis/skiis.component';
 import { ProductListComponent } from  './product-list/product-list-component';
 import { ProductDashboardComponent } from './product-dashboard/product-dashboard.component';
-import { InventoryoperationsComponent } from './inventoryoperations/inventoryoperations.component';
-import { InventoryserviceService } from './inventoryservice.service';
+
+import { InventoryService } from './inventory.service';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
@@ -22,6 +22,6 @@ import { InventoryserviceService } from './inventoryservice.service';
     ])],
   declarations: [ AppComponent, HelloComponent, BikesComponent, ShoesComponent, SkiisComponent, ProductListComponent, ProductDashboardComponent, InventoryoperationsComponent ],
   bootstrap:    [ AppComponent ],
-  providers: [InventoryserviceService]
+  providers: [InventoryserviceService, InventoryService]
 })
 export class AppModule { }
