@@ -11,6 +11,7 @@ import { ProductListComponent } from  './product-list/product-list-component';
 import { ProductDashboardComponent } from './product-dashboard/product-dashboard.component';
 
 import { InventoryService } from './inventory.service';
+import { BikeService } from './bike.service';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
@@ -22,6 +23,6 @@ import { InventoryService } from './inventory.service';
     ])],
   declarations: [ AppComponent, HelloComponent, BikesComponent, ShoesComponent, SkiisComponent, ProductListComponent, ProductDashboardComponent ],
   bootstrap:    [ AppComponent ],
-  providers: [InventoryService, InventoryService]
+  providers: [InventoryService, InventoryService, BikeService]
 })
 export class AppModule { }
