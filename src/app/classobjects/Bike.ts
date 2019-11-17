@@ -1,4 +1,4 @@
-export class ABike {
+export class Bike {
   brand;
   model;
   price;
