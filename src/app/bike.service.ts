@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Bike } from './classobjects/Bike';
+import { BikeModule } from './classobjects/bike/bike.module';
 
 @Injectable()
 export class BikeService {
