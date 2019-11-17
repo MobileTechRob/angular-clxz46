@@ -1,5 +1,5 @@
-export class Bike {
-  brand;
-  model;
-  price;
+class Bike {
+  brand = "";
+  model = "";
+  price = "";
 }
