@@ -1,6 +1,5 @@
 export class ABike {
-  brand
+  brand;
   model;
   price;
-
 }
