@@ -18,7 +18,7 @@ export class BikesComponent implements OnInit
 
   ngOnInit() 
   {
-  
+    
   }
 
 }
