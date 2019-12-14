@@ -13,8 +13,12 @@ export class BikesComponent implements OnInit
 
   constructor(public inventoryservice: InventoryService) {}
 
+  getInventoryBikes()
+  {
+    return this.inventoryservice.getBikes;
+  }
 
-  getBikes()
+  getLocalBikes()
   {
     return this.tmpBikes;
   }
