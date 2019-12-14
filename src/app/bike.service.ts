@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {  }
+import { IBike } from './dataModels/ibike.ts';
 
 @Injectable({ providedIn: 'root'})
 export class BikeService 
