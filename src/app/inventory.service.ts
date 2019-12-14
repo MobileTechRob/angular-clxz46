@@ -7,5 +7,8 @@ export class InventoryService
 {
   constructor(private bikeservice: BikeService) { }
 
-  
+  getBikes()
+  {
+    return this.bikeservice.getBikes();
+  }
 }
