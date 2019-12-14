@@ -14,7 +14,7 @@ export class BikeService
     return this.bikes;
   }
 
-  addBike()
+  addBike(bike: IBike)
   {
 
   }
