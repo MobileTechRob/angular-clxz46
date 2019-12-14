@@ -15,7 +15,7 @@ export class BikesComponent implements OnInit
 
   getInventoryBikes()
   {
-    return this.inventoryservice.getBikes;
+    return this.inventoryservice.getBikes();
   }
 
   getLocalBikes()
