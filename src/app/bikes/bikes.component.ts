@@ -21,4 +21,10 @@ export class BikesComponent implements OnInit
     
   }
 
+  getBikes()
+  {
+
+    
+  }
+
 }

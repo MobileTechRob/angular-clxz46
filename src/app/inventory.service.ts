@@ -5,7 +5,7 @@ import { HiService } from './hi.service';
 @Injectable()
 export class InventoryService 
 {
-  constructor() { }
+  constructor(private bikeservice: BikeService) { }
 
   
 }
