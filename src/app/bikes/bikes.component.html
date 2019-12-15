@@ -12,8 +12,14 @@ Bikes
 
 <dl>
   <dt><b>{{sportone}}</b></dt>
+
     <div *ngFor="let bike of getLocalBikes()">
-   <ul>
+    <ul>
+     <li>{{bike.Brand}} {{bike.Price}}</li>
+   </ul>
+   </div> 
+    <div *ngFor="let bike of getLocalBikes()">
+    <ul>
      <li>{{bike.Brand}} {{bike.Price}}</li>
    </ul>
    </div> 
