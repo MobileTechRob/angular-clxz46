@@ -9,7 +9,7 @@ export class BikeService
   newbikes: IBike[] = [];
   newbikebrands: IBike[] = [];
 
-  BikeService()
+  constructor()
   {
 
   }
