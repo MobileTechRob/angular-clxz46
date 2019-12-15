@@ -16,7 +16,11 @@ export class BikeService
 
   addBike(bike: IBike)
   {
-
+     this.newbikes.push(bike);
   }
+
+
+
+
 
 }
