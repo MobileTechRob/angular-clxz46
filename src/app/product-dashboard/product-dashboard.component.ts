@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { InventoryService } from '../inventory.service';
 
 @Component({
   selector: 'app-product-dashboard',
@@ -11,7 +12,7 @@ export class ProductDashboardComponent implements OnInit
 
   ngOnInit() 
   {
-    
+
   }
 
 }
